@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 980px;
+  color: #000;
+}
+.parent {
+  position: relative;
+  top: 20px;
+  background: #00f;
+}
+.child-one {
+  position: relative;
+  left: 10px;
+  background: #ff0;
+}
+.child-two {
+  position: relative;
+  left: 20px;
+  background: #f00;
+}
+.child-three {
+  position: relative;
+  left: 30px;
+  background: #008000;
+}
+.parent-two {
+  position: absolute;
+  top: 20px;
+  background: #00f;
+}
